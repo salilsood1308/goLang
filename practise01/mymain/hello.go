@@ -8,5 +8,6 @@ import (
 
 func main() {
 	fmt.Println(myutils.Greet1("Salil"))
-	fmt.Println(myutils.MyQuote())
+	fmt.Println(myutils.Greet2())
+	fmt.Println(myutils.Myquote())
 }

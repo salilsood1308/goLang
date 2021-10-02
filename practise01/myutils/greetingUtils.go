@@ -10,6 +10,10 @@ func Greet1(name string) string {
 	return fmt.Sprintf("Hello %v", name)
 }
 
-func MyQuote() string {
-	return fmt.Sprintf(quote.Go())
+func Greet2() string {
+	return ("Hello World! Courtsey SS-Modules")
+}
+
+func Myquote() string {
+	return quote.Go()
 }
